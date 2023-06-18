@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+.icono__nombre{
+    width: 20vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #464646;
+}
+nav{
+    padding-left: 13%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: #464646;
+}
+nav li{
+    display: inline-block;
+    width: 100px;
+    color: #464646;
+    justify-content: flex-start;
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+.contenedor__principal{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    width: 70vw;
+    justify-content: center;
+}
+.texto__principal{
+    display: flex;
+    flex-basis: 1 1 60%;
+    flex-direction: column;
+}
+.texto__principal ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 5%;
+    font-size: 1.5em;
+    text-align: left;
+    justify-content: center;
+}
+.icono{
+    font-size: 1em;
+    margin-right: 10px;
+}
+.imagen__principal{
+    display: flex;
+    flex-basis: 1 1 40%;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.imagen__principal img{
+    border-radius: 50%;
+}
