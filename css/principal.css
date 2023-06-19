@@ -5,11 +5,13 @@
     gap: 5%;
     width: 70vw;
     justify-content: center;
+    margin-top: 5%;
 }
 .texto__principal{
     display: flex;
     flex-basis: 1 1 60%;
     flex-direction: column;
+    align-items: center;
 }
 .texto__principal ul{
     display: flex;
@@ -21,8 +23,9 @@
     justify-content: center;
 }
 .icono{
-    font-size: 1em;
-    margin-right: 10px;
+    font-size: 2rem;
+    margin-right: 5px;
+    color: #464646;
 }
 .imagen__principal{
     display: flex;
@@ -30,6 +33,7 @@
     border-radius: 50%;
     justify-content: center;
     align-items: center;
+    background: white;
 }
 .imagen__principal img{
     border-radius: 50%;

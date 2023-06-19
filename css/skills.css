@@ -1,0 +1,13 @@
+.skills{
+    background: red;
+    width: 90vw;
+    height: 10em;
+}
+.cuadroCarousel{
+    display: flex;
+    flex-direction: row;
+}
+.cuadroCarousel img{
+    width: 150px;
+    height: 150px;
+}
