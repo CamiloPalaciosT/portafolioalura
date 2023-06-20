@@ -1,0 +1,24 @@
+#fondo{
+    background:#EAF2FD;
+}
+.cuadro__formacion{
+    width: 80vw;
+    height: auto;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.subcuadro__formacion{
+    width: 15rem;
+    height: 15rem;
+    background: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.subcuadro__formacion img{
+    width:50%;
+    height: 50%;
+    margin-top: 20%;
+}

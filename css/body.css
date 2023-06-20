@@ -33,6 +33,14 @@ main{
     color: #464646;
     text-align: center;
 }
+.texto{
+    font-size: 1rem;
+    color: #464646;
+    text-align: justify;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
 .titulo__dos{
     font-size: 1.5rem;
     font-weight: bold;
@@ -41,11 +49,12 @@ main{
     margin-bottom: 2%;
     margin-top: 5%;
 }
-.texto{
+.titulo__tres{
     font-size: 1rem;
+    font-weight: bold;
     color: #464646;
-    text-align: justify;
-    flex-direction: row;
-    display: flex;
-    align-items: center;f
+    text-align: initial;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    text-align: center;
 }

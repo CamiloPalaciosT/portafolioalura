@@ -1,0 +1,16 @@
+.contacto__contenedor{
+    width: 90wv;
+    display: flex;
+    flex-direction: row;
+}
+.formulario{
+    margin-left: 3%;
+}
+.imagen__contacto{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.imagen__contacto img{
+    width: 100%;
+}

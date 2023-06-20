@@ -1,7 +1,12 @@
 .skills{
-    background: red;
     width: 90vw;
-    height: 10em;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
 }
 .cuadroCarousel{
     display: flex;
@@ -10,4 +15,29 @@
 .cuadroCarousel img{
     width: 150px;
     height: 150px;
+}
+.skills #centro {
+    text-align: center;
+}
+.cuadro__skills{
+    width: 80vw;
+    height: 10em;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.subcuadro__skills{
+    width: 10rem;
+    height: 10rem;
+    background: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.icono__skills{
+    font-size: 4rem;
+    margin-right: 5px;
+    color: #2172eb;
 }
