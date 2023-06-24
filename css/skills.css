@@ -21,11 +21,19 @@
 }
 .cuadro__skills{
     width: 80vw;
-    height: 10em;
     display: flex;
     gap: 10px;
     justify-content: center;
     flex-wrap: wrap;
+}
+@media screen and (max-width: 768px) {
+    .cuadro__skills {
+        width: 95vw;
+        display: flex;
+        gap: 31px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }
 .subcuadro__skills{
     width: 10rem;

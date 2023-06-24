@@ -7,6 +7,11 @@
     justify-content: center;
     margin-top: 5%;
 }
+@media screen and (max-width: 768px) {
+    .contenedor__principal {
+        margin-top: 0%;
+    }
+}
 .texto__principal{
     display: flex;
     flex-basis: 1 1 60%;
@@ -32,9 +37,14 @@
     flex-basis: 1 1 40%;
     border-radius: 50%;
     justify-content: center;
-    align-items: center;
-    background: white;
 }
 .imagen__principal img{
     border-radius: 50%;
+}
+@media screen and (max-width: 768px) {
+    .imagen__principal img {
+        transform: scale(0.6);
+        top: -13%;
+        position: relative;
+    }
 }

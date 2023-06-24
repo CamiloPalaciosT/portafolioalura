@@ -33,6 +33,11 @@ main{
     color: #464646;
     text-align: center;
 }
+@media screen and (max-width: 768px) {
+    .titulo {
+        font-size: 1.2rem;
+    }
+}
 .texto{
     font-size: 1rem;
     color: #464646;
@@ -57,4 +62,10 @@ main{
     margin-bottom: 2%;
     margin-top: 5%;
     text-align: center;
+}
+textarea {
+    resize: none;
+}
+a{
+    all: unset;
 }

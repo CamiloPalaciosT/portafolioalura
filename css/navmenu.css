@@ -9,6 +9,11 @@
     font-size: 2rem;
     color: #464646;
 }
+@media screen and (max-width: 768px) {
+    .icono__nombre{
+        font-size: 1rem;
+    }
+}
 nav{
     padding-left: 13%;
     display: flex;
@@ -21,4 +26,14 @@ nav li{
     width: 100px;
     color: #464646;
     justify-content: flex-start;
+}
+@media screen and (max-width: 768px) {
+    nav li:nth-child(-n+5) {
+        display: none;
+    }
+    nav li:nth-child(6) {
+        position: absolute;
+        right: 21%;
+        top: 1.5%;
+    }
 }

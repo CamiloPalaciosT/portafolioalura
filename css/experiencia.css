@@ -7,6 +7,12 @@
     text-align: left;
     margin-top: 2%;
 }
+@media screen and (max-width: 768px) {
+    .experiencia {
+        flex-direction: column;
+        width: 179vw;
+    }
+}
 .imagen__experiencia{
     display: flex;
     flex-basis: 1 1 60%;
@@ -25,6 +31,12 @@
     flex-direction: column;
     margin-left: 3%;
     margin-right: 3%;
+}@media screen and (max-width: 768px) {
+    .ver__demo {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 15%;
+    }
 }
 .ver__demo h3{
     font-size: 2rem;
@@ -44,6 +56,16 @@
     margin-top: 5%;
     font-weight: bold;
 
+}
+@media screen and (max-width: 768px) {
+    #demo {
+        position: relative;
+        top: 66%;
+    }
+    #imagen{
+        position: relative;
+        top: -32%;
+    }
 }
 .btn__blanco{
     padding: 1rem 1rem;

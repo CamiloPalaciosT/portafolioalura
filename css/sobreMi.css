@@ -12,6 +12,12 @@
     margin-top: 2%;
     padding-bottom: 3%;
 }
+@media screen and (max-width: 768px) {
+    .contenedor__sobre__mi {
+        margin-top: 0%;
+        padding-bottom: 0%;
+    }
+}
 .sobre__mi{
     height: auto;
     width: auto;
@@ -19,6 +25,12 @@
     flex-direction: column;
     width: 52%;
     margin-left: 10%;
+}
+@media screen and (max-width: 768px) {
+    .sobre__mi {
+        width: 90%;
+        margin-left: 5%;
+    }
 }
 .espacio__blanco{
     display: flex;
@@ -33,4 +45,9 @@
     margin-left: 10%;
     padding-top: 2%;
     font-size: 2rem;
+}
+@media screen and (max-width: 768px) {
+    .firma {
+        margin-left: 5%;
+    }
 }

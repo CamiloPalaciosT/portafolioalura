@@ -89,48 +89,48 @@
             <h3 class="texto__dos__izquierda">Portafolio</h3>
             <h4 class="texto__tres__izquierda">mi primer portafolio</h4>
             <div>
-                <button class="btn__blanco">Repositorio</button>
-                <button class="btn__azul">Ver Demo</button>
+                <button class="btn__blanco"><a href="https://camilopalaciost.github.io/miPortafolio/">Repositorio</a></button>
+                <button class="btn__azul"><a href="https://github.com/CamiloPalaciosT/miPortafolio">Ver Demo</a></button>
             </div>
         </div>
     </div>
     <div class="experiencia">
-        <div class="ver__demo">
-            <h3 class="texto__dos__izquierda">Portafolio</h3>
-            <h4 class="texto__tres__izquierda">mi primer portafolio</h4>
+        <div class="ver__demo" id="demo">
+            <h3 class="texto__dos__izquierda">Encriptador</h3>
+            <h4 class="texto__tres__izquierda">encriptador y desencriptador de texto</h4>
             <div>
-                <button class="btn__blanco">Repositorio</button>
-                <button class="btn__azul">Ver Demo</button>
+                <button class="btn__blanco"><a href="https://camilopalaciost.github.io/EncriptadorAlura/">Repositorio</a></button>
+                <button class="btn__azul"><a href="https://github.com/CamiloPalaciosT/EncriptadorAlura">Ver Demo</a></button>
             </div>
         </div>
-        <div class="imagen__experiencia">
-            <img src="./img/portafolio.webp" alt="portafolio">
+        <div class="imagen__experiencia" id="imagen">
+            <img src="./img/encriptador.webp" alt="portafolio">
         </div>
     </div>
     <div class="experiencia">
         <div class="imagen__experiencia">
-            <img src="./img/portafolio.webp" alt="portafolio">
+            <img src="./img/modo-oscuro.webp" alt="portafolio">
         </div>
         <div class="ver__demo">
-            <h3 class="texto__dos__izquierda">Portafolio</h3>
-            <h4 class="texto__tres__izquierda">mi primer portafolio</h4>
+            <h3 class="texto__dos__izquierda">La place</h3>
+            <h4 class="texto__tres__izquierda">Landing page de Postres con modo oscuro</h4>
             <div>
-                <button class="btn__blanco">Repositorio</button>
-                <button class="btn__azul">Ver Demo</button>
+                <button class="btn__blanco"><a href="https://camilopalaciost.github.io/darkmode/">Repositorio</a></button>
+                <button class="btn__azul"><a href="https://github.com/CamiloPalaciosT/darkmode">Ver Demo</a></button>
             </div>
         </div>
     </div>
     <div class="experiencia">
-        <div class="ver__demo">
-            <h3 class="texto__dos__izquierda">Portafolio</h3>
-            <h4 class="texto__tres__izquierda">mi primer portafolio</h4>
+        <div class="ver__demo" id="demo">
+            <h3 class="texto__dos__izquierda">Calculadora</h3>
+            <h4 class="texto__tres__izquierda">Calculadora enfocada diseño</h4>
             <div>
-                <button class="btn__blanco">Repositorio</button>
-                <button class="btn__azul">Ver Demo</button>
+                <button class="btn__blanco"><a href="https://camilopalaciost.github.io/calculadora/">Repositorio</a></button>
+                <button class="btn__azul"><a href="https://github.com/CamiloPalaciosT/calculadora">Ver Demo</a></button>
             </div>
         </div>
-        <div class="imagen__experiencia">
-            <img src="./img/portafolio.webp" alt="portafolio">
+        <div class="imagen__experiencia" id="imagen">
+            <img src="./img/calculadora.webp" alt="portafolio">
         </div>
     </div>
     <div class="contacto__contenedor" id="fondo">
@@ -138,21 +138,28 @@
             <img src="./img/telephone.webp" alt="">
         </div>
         <div class="formulario" >
-            <h1>Formulario de Contacto</h1>
-            <form action="enviar.php" method="POST">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required><br><br>
-
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required><br><br>
-
-                <label for="asunto">Asunto:</label>
-                <input type="text" id="asunto" name="asunto" required><br><br>
-
-                <label for="mensaje">Mensaje:</label><br>
-                <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
-
-                <input type="submit" value="Enviar mensaje">
+            <div class="textoContacto">
+                <h3 class="titulo__dos">Contacto</h3>
+                <h4 class="texto">¿Quieres Contactarme? <br>Completa el siguiente formulario y me pondre en contacto lo mas pronto posible</h4>
+            </div>
+                <form action="enviar.php" method="POST">
+                <div class="cuadroBlanco">
+                    <label for="nombre">Nombre:</label>
+                    <input class="cuadroSinEstilos" type="text" id="nombre" name="nombre" required>
+                </div><br>
+                <div class="cuadroBlanco">
+                    <label for="email">E-mail:</label>
+                    <input class="cuadroSinEstilos" type="email" id="email" name="email" required><br><br>
+                </div><br>
+                <div class="cuadroBlanco">
+                    <label for="asunto">Asunto:</label>
+                    <input class="cuadroSinEstilos" type="text" id="asunto" name="asunto" required><br>
+                </div><br>
+                <div class="cuadroBlanco">
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea class="cuadroSinEstilos" id="mensaje" name="mensaje" rows="4" cols="50" required placeholder=""></textarea>
+                </div><br>
+                <input class="btn__azul"type="submit" value="Enviar mensaje">
             </form>
         </div>
     </div>

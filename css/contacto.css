@@ -2,15 +2,55 @@
     width: 90wv;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+@media screen and (max-width: 768px) {
+    .contacto__contenedor {
+        width: 100%;
+    }
 }
 .formulario{
     margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.textoContacto{
+    width: 100%;
+}
+.cuadroBlanco{
+    background: white;
+    width: 100%;
+}
+.cuadroSinEstilos{
+    background: none;
+    border: none;
+    outline: none;
 }
 .imagen__contacto{
-    width: 50%;
+    width: 30%;
     display: flex;
     align-items: center;
 }
+@media screen and (max-width: 768px) {
+    .imagen__contacto {
+        display: none;
+    }
+}
 .imagen__contacto img{
+    width: 100%;
+}
+#nombre{
+    width: 100%;
+}
+#email{
+    width: 100%;
+}
+#asunto{
+    width: 100%;
+}
+#mensaje{
     width: 100%;
 }
