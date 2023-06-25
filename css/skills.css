@@ -35,6 +35,11 @@
         flex-wrap: wrap;
     }
 }
+@media screen and (max-width: 768px) {
+    .cuadro__skills {
+        gap: 10px;
+    }
+}
 .subcuadro__skills{
     width: 10rem;
     height: 10rem;
@@ -43,6 +48,12 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+    .subcuadro__skills{
+        width: 11rem;
+        height: 11rem;
+    }
 }
 .icono__skills{
     font-size: 4rem;

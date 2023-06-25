@@ -20,9 +20,20 @@
 .textoContacto{
     width: 100%;
 }
+@media screen and (max-width: 375px) {
+    .textoContacto {
+        width: 94%;
+    }
+}
 .cuadroBlanco{
     background: white;
     width: 100%;
+}
+@media screen and (max-width: 375px) {
+    .cuadroBlanco {
+        background: white;
+        width: 95%;
+    }
 }
 .cuadroSinEstilos{
     background: none;

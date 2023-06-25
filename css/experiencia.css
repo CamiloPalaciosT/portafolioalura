@@ -13,6 +13,12 @@
         width: 179vw;
     }
 }
+@media screen and (max-width: 375px) {
+    .experiencia {
+        position: relative;
+        left: -34%;
+    }
+}
 .imagen__experiencia{
     display: flex;
     flex-basis: 1 1 60%;
@@ -22,6 +28,12 @@
 }
 .imagen__experiencia img{
     width: 100%;
+}
+@media screen and (max-width: 375px) {
+    .imagen__experiencia img {
+        position: relative;
+        right: -35%;;
+    }
 }
 .ver__demo{
     display: flex;
@@ -55,7 +67,6 @@
     margin-bottom: 5%;
     margin-top: 5%;
     font-weight: bold;
-
 }
 @media screen and (max-width: 768px) {
     #demo {
@@ -67,14 +78,38 @@
         top: -32%;
     }
 }
+@media screen and (max-width: 375px) {
+    #demo {
+        position: relative;
+        top: 0%;
+    }
+    .botones{
+        display: flex;
+        gap: 10px;
+        width: 30vh;
+    }
+    .ver__demo h3{
+        width: 30vh;
+    }
+    .ver__demo h4{
+        width: 30vh;
+    }
+    #imagen{
+        position: relative;
+        top: -45%;
+    }
+    #demo {
+        position: relative;
+        top: 53%;
+    }
+}
+
 .btn__blanco{
-    padding: 1rem 1rem;
     color: #2A7AE4;
     border-color: #2A7AE4;
     border-style: double;
 }
 .btn__blanco::after{
-    padding: 1rem 1rem;
     color: #0851b1;
     border-color: #0851b1;
     border-style: double;
@@ -85,4 +120,9 @@
     border-color: #2A7AE4;
     border-style: double;
     background: #2A7AE4;
+}
+@media screen and (max-width: 375px) {
+    .btn__azul{
+        padding: 0.5rem 0.5rem;
+    }
 }

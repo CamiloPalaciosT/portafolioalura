@@ -37,3 +37,10 @@ nav li{
         top: 1.5%;
     }
 }
+@media screen and (max-width: 375px){
+    nav li:nth-child(6) {
+        position: absolute;
+        right: 35%;
+        top: 1.5%;
+    }
+}
